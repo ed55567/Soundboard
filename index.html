@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Soundboard</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/dde7ylt.css">
+     <script type="text/javascript" src="sound-onclick.js"></script>
+  </head>
+  <body>
+      <div class="keys_acc">  
+        <!--<button class ="key">
+          <kbd>CC</kbd>
+        </button>-->
+          <a href="https://instructional-resources.s3.amazonaws.com/PLTW_Launch/10021_LightAndSound/English_External_Files/1_1_ExploringSoundTranscript.pdf" target="_blank">
+           <img src="./images/Transcript-BTN_Sofia.png" id="transcript_btn4" />
+          </a>
+        <!--<button class ="key">
+          <kbd>CC</kbd>
+        </button>-->
+      </div> 
+    <div class="title">
+        <span>What’s That Sound?</span> 
+    </div>
+    <div class="keys">
+          <div OnClick="playclip(document.getElementById('mySoundClip1'));" class="key" style="background-image: url('images/Party.jpg'); background-size:cover">
+           <kbd><span>Crowd</span></kbd>
+           <p><span>Crowd Cheering</span></p>
+         </div>
+      <div OnClick="playclip(document.getElementById('mySoundClip2'));" class="key" style="background-image: url('images/Fireworks.png'); background-size:cover">
+        <!--<kbd>2</kbd>-->
+        <kbd><span>Fireworks</span></kbd>
+         <p><span>fireworks exploding</span></p>
+      </div>
+        
+      <div  OnClick="playclip(document.getElementById('mySoundClip3'));" class="key"  style="background-image: url('images/hammer.jpg'); background-size:cover">
+        <!--<kbd>3</kbd>-->
+        <kbd><span>Hammer</span></kbd>
+        <p><span>hammer pounding</span></p>
+      </div>
+    </div>
+      
+    <div class="keys_1">
+        
+      <div OnClick="playclip(document.getElementById('mySoundClip4'));" class="key" style="background-image: url('images/Horse.png'); background-size:cover">
+       <!-- <kbd>4</kbd>-->
+        <kbd><span>Horse</span></kbd>
+        <p><span>horse galloping</span></p>
+      </div>
+        
+      <div OnClick="playclip(document.getElementById('mySoundClip5'));" class="key" style="background-image: url('images/labrador_retriever.jpg'); background-size:cover ">
+       <!-- <kbd>5</kbd>-->
+        <kbd><span>Dog</span></kbd>
+        <p><span>dog barking</span></p>
+      </div>
+        
+      <div OnClick="playclip(document.getElementById('mySoundClip6'));" class="key" style="background-image: url('images/Tiger.png'); background-size:cover">
+        <!--<kbd>6</kbd>-->
+        <kbd><span>Tiger</span></kbd>
+        <p><span>tiger roaring</span></p>
+      </div>
+    </div>
+      
+    <div class="keys_2">
+      <div OnClick="playclip(document.getElementById('mySoundClip7'));" class="key" style="background-image: url('images/Volcano.png'); background-size:cover">
+        <!--<kbd>7</kbd>-->
+        <kbd><span>Volcano</span></kbd>
+        <p><span>volcano erupting</span></p>
+      </div>
+        
+      <div OnClick="playclip(document.getElementById('mySoundClip8'));" class="key" style="background-image: url('images/traffic.jpg');background-size:cover">
+        <!--<kbd>8</kbd>-->
+        <kbd><span>Traffic</span></kbd>
+        <p><span>cars moving</span></p>
+      </div>
+        
+      <div id="roosterphoto" OnClick="playclip(document.getElementById('mySoundClip9'));" class="key" style="background-image: url('images/rooster.jpg');">
+       <!-- <kbd>9</kbd>-->
+        <kbd><span>Rooster</span></kbd>
+        <p class="pcc"><span>rooster crowing</span></p>
+      </div>
+    </div>
+
+    <audio  id ="mySoundClip1" src="sounds/Arena Crowd Cheer.wav"></audio>
+    <audio  id ="mySoundClip2" src="sounds/Fireworks.wav"></audio>
+    <audio  id ="mySoundClip3" src="sounds/Hammer_On_Tile_Fast_01.wav"></audio>
+    <audio  id ="mySoundClip4" src="sounds/Horse Gallop on Gravel 1.wav"></audio>
+    <audio  id ="mySoundClip5" src="sounds/Labrador_Multiple_Barks_Single_01.wav"></audio>
+    <audio  id ="mySoundClip6" src="sounds/Tiger Roar.wav"></audio>
+    <audio  id ="mySoundClip7" src="sounds/Volcano Erupting.wav"></audio>
+    <audio  id ="mySoundClip8" src="sounds/Traffic.wav"></audio>
+    <audio  id ="mySoundClip9" src="sounds/Rooster_Double_Crowing_Close_01.wav"></audio>
+
+  </body>
+</html>

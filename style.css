@@ -1,22 +1,49 @@
 html {
   font-size: 10px;
+  font-family: "sofia-pro-soft",sans-serif;
   background: url('./background.jpg') bottom center;
   background-size: cover;
+  
 }
 
 body,html {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+  margin: 0.5rem;
+  padding: 0.5rem;
 }
+
+
+.title{
+  text-shadow: 0 0 1.5rem black;
+  font-size: 10rem;
+  color: floralwhite;
+  margin-bottom: 3.8rem;
+  cursor: pointer;
+  display: flex;
+  flex: 1;
+  min-height: 5vh;
+  justify-content: center
+}
+
+
+
 
 .keys {
   cursor: pointer;
   display: flex;
   flex: 1;
   min-height: 35vh;
-  align-items: center;
   justify-content: center;
+}
+
+.keys_acc {
+  padding-top: 3.2rem;
+  padding-right: 20.2rem;
+  cursor: pointer;
+  display: flex;
+  flex: 1;
+  min-height: 5vh;
+  align-items: right;
+  justify-content: right;
 }
 
 .keys_1 {
@@ -24,7 +51,6 @@ body,html {
   display: flex;
   flex: 1;
   min-height: 35vh;
-  align-items: center;
   justify-content: center;
 }
 
@@ -33,41 +59,102 @@ body,html {
   display: flex;
   flex: 1;
   min-height: 35vh;
-  align-items: center;
   justify-content: center;
+  padding-bottom: 3.8rem;
 }
 
-.key {
+.key_acc {
   border: .4rem solid white;
   border-radius: .5rem;
-  margin: 1rem;
+  margin: 0.5rem;
   font-size: 1.5rem;
-  padding: 5rem .5rem;
+  padding: .2rem .2rem;
   transition: all .07s ease;
-  width: 30rem;
+  width: 10rem;
   text-align: center;
   color: white;
   background: rgba(0,0,0,0.4);
   text-shadow: 0 0 .5rem black;
 }
 
-.key:hover {
+.key_acc:hover {
   transform: scale(1.07);
   border-color: #ffc600;
-  box-shadow: 0 0 1rem #ffc600;
+  box-shadow: 0 0 1rem #ffc600
+}
+
+.key {
+  position: relative;
+  border: 0.5rem  solid white;
+  border-radius: .4rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 5rem .7rem;
+  transition: all .07s ease;
+  width: 40rem;
+  color: white;
+  background: rgba(0,0,0,0.4);
+  
+}
+
+.key:hover {
+  transform: scale(1.07);
+  border-color: #fff;
+  box-shadow: 0 0 1rem #fff;
 }
 
 kbd {
   display: block;
-  font-size: 4rem;
+  font-size: 3.7rem;
+  text-shadow: 0 0 .5rem black;
+  
+
+}
+
+kbd span{
+  font-family: "sofia-pro-soft",sans-serif;
+  position: absolute;
+  top: 0;
+  background-color: rgba(138,66,67,0.80);
+}
+
+.key p { 
+  position: absolute;
+  bottom: -3.4rem;
+  right: 0;
+  border-radius: .4rem;
+  font-size: 3.0rem;
+  text-align: center;
+  color: black;
+  background-color: white;
+  text-transform: lowercase;
+  overflow: hidden;
 }
 
 
 
-.sound {
-  font-size: 2.8rem;
-  text-transform: uppercase;
-  letter-spacing: .3rem;
-  color: #ffc600;
-  /*background-color: aliceblue;*/
+
+
+#transcript_btn4 {
+		cursor: pointer;
+		top: 710px;
+		left: 974px;
+		width: 268px;
+		height: 70px;
+	}
+
+#roosterphoto{
+   background-size: cover;    
 }
+
+
+
+
+
+
+
+
+
+
+
+
